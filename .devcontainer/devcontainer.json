@@ -1,0 +1,7 @@
+{
+  "name": "VPS Server",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:1": {}
+  },
+  "postCreateCommand": "apt update && apt install -y openssh-server"
+}
